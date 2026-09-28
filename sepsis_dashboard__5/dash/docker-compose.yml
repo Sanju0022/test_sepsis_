@@ -1,0 +1,34 @@
+# Live demo on your own computer with Docker Desktop:
+#   docker compose up --build        then open http://localhost:8501  ->  tab "Live ICU monitor"
+#   docker compose down              to stop
+# Put synthetic_icu_20000_hourly.csv.gz in ./data_synth (without it the feeder replays the 600-patient sample in ./data).
+services:
+  feeder:
+    build: .
+    command: ["python", "feeder.py"]
+    environment:
+      LIVE_DB: /live/icu_live.db
+      SYNTH_FILE: /app/data_synth/synthetic_icu_20000_hourly.csv.gz
+      TICK_SECONDS: "1.0"        # real seconds per simulated ICU hour
+      BEDS: "22"
+      START_HOUR: "48"
+      LOOP: "1"
+    volumes:
+      - live:/live
+      - ./data_synth:/app/data_synth:ro
+    restart: unless-stopped
+
+  dashboard:
+    build: .
+    environment:
+      LIVE_DB: /live/icu_live.db
+    ports:
+      - "8501:8501"
+    volumes:
+      - live:/live
+    depends_on:
+      - feeder
+    restart: unless-stopped
+
+volumes:
+  live:

@@ -1,0 +1,13 @@
+parameter,value,source
+P_TRANS,0.001697,MLE (Step 4)
+P_INIT,0.012,MLE (Step 4)
+SENS_NEWS2,0.216039,MLE
+SPEC_NEWS2,0.870536,MLE
+SENS_SIRS,0.507748,MLE
+SPEC_SIRS,0.666844,MLE
+W_HOUR,0.006221064814814815,"ICU hour cost / mean sepsis stay cost (SCCM, HCUP)"
+W_ABX,1.0,modelling choice
+W_MISS,5.0,modelling choice
+W_SAT,0.1,modelling choice
+HORIZON,72.0,modelling choice
+C_DELAY,0.00547486588515797,Seymour 2017 OR 1.04/h + HCUP 16.5% mortality

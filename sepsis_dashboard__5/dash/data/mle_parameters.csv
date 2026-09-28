@@ -1,0 +1,28 @@
+item,parameter,group,mle,ci_low,ci_high,n
+progression,p_transition_0to1_per_hour,all,0.001697,0.001419,0.001985,71889
+progression,p_initial_state1,all,0.012,0.008077,0.017794,2000
+progression,p_transition_0to1_per_hour,news2_band=low,0.001312,0.00101,0.001619,50306
+progression,p_transition_0to1_per_hour,news2_band=low-medium,0.001715,0.000704,0.002839,5832
+progression,p_transition_0to1_per_hour,news2_band=medium,0.003147,0.001877,0.00455,6355
+progression,p_transition_0to1_per_hour,news2_band=high,0.003514,0.001113,0.00604,1992
+test_accuracy,sensitivity,NEWS2 >= 5,0.216039,0.165599,0.270935,1222
+test_accuracy,specificity,NEWS2 >= 5,0.870536,0.860072,0.88038,66312
+test_accuracy,sensitivity,Temp > 38 or < 36,0.242401,0.188723,0.298905,1283
+test_accuracy,specificity,Temp > 38 or < 36,0.870041,0.860276,0.879453,68052
+test_accuracy,sensitivity,HR > 90,0.468613,0.400993,0.538317,1370
+test_accuracy,specificity,HR > 90,0.668231,0.650151,0.685111,72032
+test_accuracy,sensitivity,RR > 20,0.412202,0.352885,0.474896,1344
+test_accuracy,specificity,RR > 20,0.707072,0.694458,0.71937,71393
+test_accuracy,sensitivity,WBC > 12 or < 4,0.467993,0.379451,0.557443,1156
+test_accuracy,specificity,WBC > 12 or < 4,0.612552,0.590524,0.635946,56614
+test_accuracy,sensitivity,SIRS >= 2,0.507748,0.43787,0.576629,1097
+test_accuracy,specificity,SIRS >= 2,0.666844,0.648227,0.68511,54638
+treatment_success,p_survive,all sepsis patients,0.849315,0.782383,0.898336,146
+treatment_success,p_survive,antibiotics <= 1 h,0.935897,0.858562,0.972311,78
+treatment_success,p_survive,antibiotics > 1 h,0.75,0.635612,0.837651,68
+treatment_success,odds_ratio_death_per_hour_delay,logistic MLE,1.2577,1.098189,1.440381,146
+treatment_success,odds_ratio_death_per_hour_delay,"logistic MLE (all 2,932)",1.040548,1.018438,1.063137,2932
+treatment_success,p_survive,"antibiotics <= 1 h (all 2,932)",0.834207,0.814713,0.852023,1526
+treatment_success,p_survive,"antibiotics > 1 h (all 2,932)",0.805832,0.784334,0.825664,1406
+satisfaction_curve,intercept_a,logit,2.04656,1.635751,2.457369,1942
+satisfaction_curve,slope_b_per_min,logit,-0.020024,-0.028083,-0.011965,1942

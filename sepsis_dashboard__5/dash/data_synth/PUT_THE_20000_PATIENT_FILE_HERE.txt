@@ -1,0 +1,3 @@
+Put synthetic_icu_20000_hourly.csv.gz in this folder for the Docker live demo (see README.md).
+Without it the feeder replays data/live_replay_sample.csv.gz (600 synthetic patients).
+Do not push the large file to GitHub; Streamlit Cloud does not need it.

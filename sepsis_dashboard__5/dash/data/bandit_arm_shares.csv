@@ -1,0 +1,68 @@
+bandit,context,arm,times_chosen
+thompson,all,NEWS2 >= 5,1202
+thompson,all,never treat,572
+thompson_contextual,45-64 | unknown,never treat,446
+thompson_contextual,65-79 | unknown,SIRS >= 2,292
+thompson_contextual,65-79 | unknown,NEWS2 >= 5,222
+thompson_contextual,<45 | unknown,never treat,173
+thompson,all,SIRS >= 2,126
+thompson_contextual,45-64 | unknown,SIRS >= 2,121
+thompson,all,treat at once,100
+thompson_contextual,80+ | unknown,never treat,88
+thompson_contextual,80+ | unknown,SIRS >= 2,69
+thompson_contextual,65-79 | low,treat at once,59
+thompson_contextual,<45 | unknown,SIRS >= 2,44
+thompson_contextual,80+ | unknown,NEWS2 >= 5,41
+thompson_contextual,45-64 | low,NEWS2 >= 5,40
+thompson_contextual,<45 | unknown,treat at once,39
+thompson_contextual,45-64 | unknown,NEWS2 >= 5,37
+thompson_contextual,80+ | unknown,treat at once,30
+thompson_contextual,45-64 | unknown,treat at once,27
+thompson_contextual,65-79 | unknown,treat at once,27
+thompson_contextual,45-64 | low,treat at once,26
+thompson_contextual,<45 | unknown,NEWS2 >= 5,25
+thompson_contextual,45-64 | low,SIRS >= 2,22
+thompson_contextual,65-79 | low,never treat,20
+thompson_contextual,<45 | low,never treat,17
+thompson_contextual,45-64 | low,never treat,14
+thompson_contextual,<45 | low,SIRS >= 2,10
+thompson_contextual,80+ | low,treat at once,10
+thompson_contextual,65-79 | unknown,never treat,7
+thompson_contextual,65-79 | low,NEWS2 >= 5,7
+thompson_contextual,80+ | low,never treat,7
+thompson_contextual,80+ | low,NEWS2 >= 5,7
+thompson_contextual,<45 | low,treat at once,5
+thompson_contextual,<45 | low,NEWS2 >= 5,5
+thompson_contextual,<45 | low-medium,SIRS >= 2,5
+thompson_contextual,65-79 | medium,treat at once,4
+thompson_contextual,65-79 | low-medium,never treat,4
+thompson_contextual,80+ | low,SIRS >= 2,3
+thompson_contextual,45-64 | low-medium,NEWS2 >= 5,3
+thompson_contextual,65-79 | medium,NEWS2 >= 5,3
+thompson_contextual,65-79 | low-medium,NEWS2 >= 5,3
+thompson_contextual,80+ | low-medium,SIRS >= 2,3
+thompson_contextual,65-79 | low,SIRS >= 2,2
+thompson_contextual,<45 | medium,SIRS >= 2,2
+thompson_contextual,45-64 | medium,never treat,2
+thompson_contextual,<45 | medium,treat at once,2
+thompson_contextual,45-64 | low-medium,treat at once,2
+thompson_contextual,45-64 | medium,treat at once,2
+thompson_contextual,65-79 | low-medium,SIRS >= 2,2
+thompson_contextual,80+ | medium,treat at once,2
+thompson_contextual,65-79 | high,never treat,2
+thompson_contextual,45-64 | medium,NEWS2 >= 5,2
+thompson_contextual,65-79 | low-medium,treat at once,1
+thompson_contextual,45-64 | high,NEWS2 >= 5,1
+thompson_contextual,<45 | low-medium,NEWS2 >= 5,1
+thompson_contextual,45-64 | medium,SIRS >= 2,1
+thompson_contextual,80+ | low-medium,NEWS2 >= 5,1
+thompson_contextual,80+ | medium,NEWS2 >= 5,1
+thompson_contextual,45-64 | high,never treat,1
+thompson_contextual,65-79 | medium,never treat,1
+thompson_contextual,80+ | medium,never treat,1
+thompson_contextual,<45 | medium,never treat,1
+thompson_contextual,<45 | high,NEWS2 >= 5,1
+thompson_contextual,<45 | medium,NEWS2 >= 5,1
+thompson_contextual,65-79 | high,SIRS >= 2,1
+thompson_contextual,<45 | high,never treat,1
+thompson_contextual,80+ | low-medium,treat at once,1

@@ -1,0 +1,5 @@
+opinion,area under ROC,Brier score,mean predicted risk,actual rate
+nurse (NEWS2 band),0.5823,0.01422,0.0239,0.0144
+doctor (SIRS count),0.6057,0.01439,0.0244,0.0144
+AI tool (logistic),0.6872,0.01403,0.0239,0.0144
+fused (log-odds pooling),0.7002,0.01498,0.0277,0.0144

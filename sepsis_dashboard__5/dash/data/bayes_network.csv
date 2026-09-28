@@ -1,0 +1,5 @@
+sign,P(sign|sepsis),P(sign|no sepsis),LR if present,LR if absent
+temp_abn,0.2489,0.1276,1.95,0.861
+hr_abn,0.4585,0.3359,1.365,0.815
+rr_abn,0.4129,0.3064,1.348,0.846
+wbc_abn,0.4713,0.385,1.224,0.86

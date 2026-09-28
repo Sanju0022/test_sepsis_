@@ -1,0 +1,5 @@
+policy,mean utility,sepsis treated %,treated before onset %,non-sepsis treated %,mean labs,mean ICU cost $,median hour treated (sepsis)
+pomdp,-0.414,30.8,20.5,19.5,0.25,6178,29.0
+never_treat,-0.365,0.0,0.0,0.0,0.0,6731,
+news2_rule,-0.5925,67.1,58.2,56.3,0.0,3908,10.0
+sirs_rule,-0.6426,78.1,67.8,66.8,0.0,3534,10.0
